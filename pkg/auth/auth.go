@@ -18,3 +18,7 @@ func (auth *Auth) Auth() (bool, error) {
 func (auth *Auth) AuthThirdType() (bool, error) {
 	return true, nil
 }
+
+func (auth *Auth) AuthWithoutRandom() (bool, error) {
+	return true, nil
+}
